@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Recommendation Website - Genres</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Movie Recommendations</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="toprated.html">Top Rated</a></li>
+        <li><a href="anime.html">Anime</a></li>
+        <li><a href="genres.html">Genres</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Genres</h2>
+      <div class="genre-list" id="genre-list">
+        <button class="genre-button" data-genre="action">Action</button>
+        <button class="genre-button" data-genre="comedy">Comedy</button>
+        <button class="genre-button" data-genre="drama">Drama</button>
+        <!-- Add more genre buttons as needed -->
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected Genre Movies</h2>
+      <div class="movie-list" id="selected-movies">
+        <!-- Movie Cards will be dynamically loaded here -->
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Movie Recommendations. All rights reserved.</p>
+  </footer>
+
+  <script src="genres.js"></script>
+</body>
+</html>
